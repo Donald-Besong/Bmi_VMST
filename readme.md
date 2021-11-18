@@ -36,8 +36,8 @@ Instructions
 
 3. Instal python packages using pip.requirements.txt in your python3
 environment   
-4. Make sure that in your command line, you are in the root folder 
-(DONALD_CHALLENGE_VMST)
+4. Make sure that in your command line, you are in the root folder, which contains
+   requirements.txt, and all the code. 
 
 5. Run a command the following command, changing the argument values:
 python3 main_program.py --json_source=<full path to json file> --nmin=1 --nmax=4 --category=normal_weight --full_message=1
