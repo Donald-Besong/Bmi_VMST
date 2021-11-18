@@ -42,7 +42,7 @@ environment
    requirements.txt, and all the code. 
 
 5. Run a command the following command, changing the argument values:
-python3 main_program.py --json_source=<full path to json file> --nmin=1 --nmax=4 --category=normal_weight --full_message=1
+<p align="center"> python3 main_program.py --json_source=<full path to json file> --nmin=1 --nmax=4 --category=normal_weight --full_message=1 </p>
 Here are the arguments to run the code:
   json_source: This should be thevfull path to json file. The default is 
      /src/donald_besong_bmi_package/data/data.json, relative to the root. 
