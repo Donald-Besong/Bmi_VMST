@@ -31,7 +31,9 @@ Instructions
 
 1. Clone the repository
 
-2. virtualenv -p python3 vmst_env3
+2a. virtualenv -p python3 vmst_env3
+
+2b. virtualenv -p python3 vmst_env3
    . vmst_env3/bin/activate
 
 3. Instal python packages using pip.requirements.txt in your python3
