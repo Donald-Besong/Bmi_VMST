@@ -44,13 +44,19 @@ environment
 5. Run a command the following command, changing the argument values:
 <p align="center"> python3 main_program.py --json_source=<full path to json file> --nmin=1 --nmax=4 --category=normal_weight --full_message=1 </p>
 Here are the arguments to run the code:
+
   json_source: This should be thevfull path to json file. The default is 
      /src/donald_besong_bmi_package/data/data.json, relative to the root. 
-     However, you can provide the full path to any json file in any location
-  nmin: This is the row number from which you want to load the data. Default is 0
-  nmax: This is the row number up to which you want to load the data. Default is 5
+     
+     However, you can provide the full path to any json file in any location.
+     
+  nmin: This is the row number from which you want to load the data. Default is 0.
+  
+  nmax: This is the row number up to which you want to load the data. Default is 5.
+  
         This is because your json dataset might be too large. The code is optimising
         the reading of your json dataset with ijson.
+        
   category:  This is the filter you require in the exercise.
              The value should be one of the following:
               under_weight, 
@@ -67,15 +73,20 @@ Here are the arguments to run the code:
     
 TESTING Only:
 Run this command
- python3 tests/first/test_code.py --file_load_test=1 --compare_lengths=1 --category=normal_weight --nlow_risk=2
+ <p align="center"> python3 tests/first/test_code.py --file_load_test=1 --compare_lengths=1 --category=normal_weight --nlow_risk=2 </p>
   json_source: This uses the default, so do not enter this parameter when testing.
             The above default file used for testing. If you would like to do the testing
             for other data, replace this folder with same name.
+            
   file_load_test: This is to tell the test to check if your json file has been loaded (trivial)
+  
   compare_lengths: This is to tell the test to assert that the filtered data is s
-            shorter than the entire data 
-  category: same as above
+            shorter than the entire data. 
+  
+  category: same as above.
+  
   nlow_risk: This is the expected value for the number of people in --category=normal_weight
+  
   nvery_high_risk: This is the expected value for the number of people in --category=very_severely_obese
   
   ***Note***
